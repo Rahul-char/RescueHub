@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:padding="20dp"
+    tools:context=".activities.OnboardingActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vpOnboardingSlider"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnGetStarted"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/primary_green"
+            android:fontFamily="@font/raleway"
+            android:onClick="getStarted"
+            android:text="@string/button_lets_get_started"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:cornerRadius="30dp" />
+
+        <LinearLayout
+            android:id="@+id/linearDots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal" />
+
+        <Button
+            android:id="@+id/btnNext"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:backgroundTint="@color/safe_white"
+            android:drawableEnd="@drawable/ic_continue"
+            android:drawableTint="@color/primary_green"
+            android:onClick="next"
+            android:text="@string/button_next"
+            android:textAllCaps="false"
+            android:textColor="@color/primary_green"
+            tools:ignore="RelativeOverlap" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

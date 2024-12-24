@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- DORAv4 Project Color-->
+    <color name="background">#F9F7F4</color>
+    <color name="safe_white">#FDFDFD</color>
+    <color name="safe_black">#2F2F2F</color>
+    <color name="safe_gray">#EFEFEF</color>
+    <color name="primary_green">#52B286</color>
+    <color name="secondary_green">#40916C</color>
+    <color name="primary_gray">#AEB4B6</color>
+    <color name="primary_red">#BF616A</color>
+    <color name="secondary_red">#8C474D</color>
+    <color name="card_stroke">#DADADA</color>
+</resources>

@@ -1,0 +1,230 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- App Name -->
+    <string name="app_name">RescueHub</string>
+
+    <!-- String for dropdown menu -->
+    <string-array name="disasters">
+        <item>Heavy Rain</item>
+        <item>Earthquake</item>
+        <item>Fire</item>
+        <item>Flood</item>
+        <item>Landslide</item>
+        <item>Tsunami</item>
+        <item>Typhoon</item>
+        <item>Volcanic Eruption</item>
+    </string-array>
+
+    <!-- String used for onboarding slider -->
+    <string name="slider_first_title">Welcome to RescueHub!</string>
+    <string name="slider_first_desc">RescueHub is your disaster preparedness companion complete with guides, emergency hotlines, and other information to keep you safe.</string>
+    <string name="slider_second_title">Be informed!</string>
+    <string name="slider_second_desc">RescueHub allows you to view disaster reports and evacuation centers to help you stay alert and prepared when disaster strikes.</string>
+    <string name="slider_third_title">Be responsible!</string>
+    <string name="slider_third_desc">Please be mindful when posting disaster reports and make sure that all information is accurate and correct, you may refer to our Terms and Conditions for our policies.</string>
+    <string name="slider_fourth_title">Stay connected!</string>
+    <string name="slider_fourth_desc">RescueHub allows you to chat with other users online using an active internet connection as well as offline using our Bluetooth chat in case of network outages.</string>
+
+    <!-- String used for account login -->
+    <string name="login_header">Welcome to RescueHub!</string>
+    <string name="login_description">This app requires login to enjoy all the features of this application</string>
+    <string name="forgot_password">Forgot password?</string>
+
+    <!-- String used for account registration -->
+    <string name="register_header">We’re glad to have you!</string>
+    <string name="register_description">RescueHub keeps you updated with current disaster situations</string>
+    <string name="account_setup">Account Setup</string>
+
+    <!-- String used for account setup -->
+    <string name="setup_header">Welcome to RescueHub!</string>
+    <string name="setup_description">We just need a few more details from you</string>
+    <string name="profile_setup">Profile Setup</string>
+    <string name="profile_picture">Add Profile Picture\n<i>(Optional)</i></string>
+
+    <!-- String used for forgotten password -->
+    <string name="forgot_your_password_header">Forgot your password?</string>
+    <string name="forgot_your_password_description">Don\'t worry, enter your email address and we\'ll send you a password reset link</string>
+
+    <!-- String used for no internet connection -->
+    <string name="no_internet_header">Whoops!</string>
+    <string name="no_internet_description">No internet connection, please make sure that Wi-Fi or mobile data is turned on.</string>
+
+    <!-- Strings used for change password and email -->
+    <string name="authenticate">Authenticate</string>
+    <string name="authenticate_description">Take a moment to verify your account by entering your password, this helps us confirm your identity and secure your account.</string>
+    <string name="change_password">Change Password</string>
+    <string name="new_password">Enter your new password</string>
+    <string name="update_email_address">Update Email Address</string>
+    <string name="new_email_address">Enter your new email address.</string>
+
+    <!-- String used for offline dashboard -->
+    <string name="offline_header">Be disaster resilient</string>
+    <string name="offline_description">RescueHub is your disaster preparedness assistant</string>
+    <string name="disaster_preparedness_guides">Disaster Preparedness Guides</string>
+    <string name="disaster_preparedness_guides_description">Be prepared for disasters with the help of our expert-validated guides</string>
+    <string name="emergency_hotlines">Emergency Hotlines</string>
+    <string name="emergency_hotlines_description">RescueHub has prepared the emergency hotlines that might come handy in disaster situations</string>
+    <string name="bluetooth_chat">Bluetooth Chat</string>
+    <string name="bluetooth_chat_description">Send a message via Bluetooth which doesn\'t require an internet connection</string>
+    <string name="access_online_features">Access Online Features</string>
+    <string name="access_online_features_description">To access the full RescueHub experience, a sign in is necessary</string>
+
+    <!-- Strings used for emergency hotlines -->
+    <string name="hotlines_header">Emergency Hotlines</string>
+    <string name="available_nationwide">Available Nationwide</string>
+    <string name="_911">100</string>
+    <string name="national_emergency">National Emergency</string>
+    <string name="_911_description">For police and firefighting aid</string>
+    <string name="hotlines_warning">Please only access this area when in need to avoid butt-dialing or accidentally calling the hotline.</string>
+    <string name="_1555">108</string>
+    <string name="department_of_health">Department of Health</string>
+    <string name="_1555_description">For medical aid</string>
+    <string name="_143">81696575</string>
+    <string name="philippine_red_cross">NDRF</string>
+    <string name="_143_description">For humanitarian aid</string>
+    <string name="_163">1098</string>
+    <string name="bantay_bata">The Ministry of Child Development</string>
+    <string name="_163_description">For CHILDLINE helpline</string>
+    <string name="_8888">112</string>
+    <string name="national_complaint">Emergency Response Support System</string>
+    <string name="_8888_description">For emergency requests</string>
+
+    <!-- Strings used for disaster preparedness guides -->
+    <string name="earthquake">Earthquake</string>
+    <string name="earthquake_description">A quick and comprehensive guide about earthquake preparedness</string>
+    <string name="fire">Fire</string>
+    <string name="fire_description">A quick and comprehensive guide about fire preparedness</string>
+    <string name="typhoon">Tropical Cyclone</string>
+    <string name="typhoon_description">A quick and comprehensive guide about tropical cyclone preparedness</string>
+    <string name="volcanic_eruption">Volcanic Eruption</string>
+    <string name="volcanic_eruption_description">A quick and comprehensive guide about volcanic eruption preparedness</string>
+    <string name="tsunami">Tsunami</string>
+    <string name="tsunami_description">A quick and comprehensive guide about tsunami preparedness</string>
+    <string name="landslide">Landslide</string>
+    <string name="landslide_description">A quick and comprehensive guide about landslide preparedness</string>
+    <string name="flood">Flood</string>
+    <string name="flood_description">A quick and comprehensive guide about flood preparedness</string>
+
+    <!-- String used for Bluetooth chat -->
+
+    <!-- Placeholder strings -->
+    <string name="placeholder_header">Header</string>
+    <string name="placeholder_name">Rahul Kasoju</string>
+    <string name="placeholder_date">0 days ago</string>
+    <string name="placeholder_disaster_type">Heavy Rain</string>
+    <string name="placeholder_address">MVSR College,nadargul,500058,Hyd</string>
+    <string name="placeholder_description">There’s heavy rain in nadargul right now nearby MVSR College.</string>
+    <string name="placeholder_comments">0 comments</string>
+    <string name="placeholder_upvotes">0 upvotes</string>
+    <string name="placeholder_comment">This is a comment</string>
+    <string name="placeholder_email">rahul.kasoju@gmail.com</string>
+
+    <!-- Header texts -->
+    <string name="advisories_header">Advisories</string>
+    <string name="comments_header">Comments</string>
+    <string name="find_friends_header">Find Friends</string>
+    <string name="settings_header">Settings</string>
+    <string name="credits_header">References</string>
+    <string name="about_header">About</string>
+    <string name="notifications_header">Notifications</string>
+    <string name="upvotes_header">Upvotes</string>
+    <string name="terms_and_conditions_header">Terms and Conditions</string>
+    <string name="privacy_policy_header">Privacy Policy</string>
+    <string name="start_conversation_header">Start Conversation</string>
+
+    <!-- String used for empty views -->
+    <string name="empty_reports">No reports found!</string>
+    <string name="empty_reports_description">Tap the floating button to submit a disaster report</string>
+    <string name="empty_friends">You have no friends!</string>
+    <string name="empty_friends_description">Navigate to Friends List to add some friends</string>
+    <string name="empty_upvotes">Report has no upvotes!</string>
+    <string name="empty_upvotes_description">Verify the report by clicking the upvote button</string>
+    <string name="empty_comments">No comments yet</string>
+    <string name="empty_comments_description">Be the first to comment</string>
+    <string name="empty_messages">You have no messages!</string>
+    <string name="empty_messages_description">Tap the floating button to start a conversation</string>
+    <string name="empty_search">Search a user!</string>
+    <string name="empty_search_description">Type someone\'s name and tap on them to add them.</string>
+
+
+    <!-- String used for friends system -->
+    <string name="send_friend_request">Send Friend Request</string>
+    <string name="decline_friend_request">Decline Friend Request</string>
+    <string name="accept_friend_request">Accept Friend Request</string>
+    <string name="cancel_friend_request">Cancel Friend Request</string>
+    <string name="unfriend">Unfriend</string>
+
+    <!-- String used for EditText -->
+    <string name="edit_text_full_name">Full Name</string>
+    <string name="edit_text_email">Email Address</string>
+    <string name="edit_text_password">Password</string>
+    <string name="edit_text_report_details">What\'s the details of the report?</string>
+    <string name="edit_text_disaster_type">Disaster Type</string>
+    <string name="edit_text_enter_a_message">Enter a message…</string>
+    <string name="edit_text_enter_a_comment">Enter a comment…</string>
+    <string name="edit_text_new_password">New Password</string>
+    <string name="edit_text_new_email_address">New Email Address</string>
+
+    <!-- String used for Button -->
+    <string name="button_save_profile">Save Profile</string>
+    <string name="button_register">Register</string>
+    <string name="button_change_name">Change Name</string>
+    <string name="button_change_profile_picture">Change Profile Picture</string>
+    <string name="button_change_email">Change Email Address</string>
+    <string name="button_change_password">Change Password</string>
+    <string name="button_logout">Logout</string>
+    <string name="button_report">Report</string>
+    <string name="button_lets_get_started">Let\'s get started</string>
+    <string name="button_next">Next</string>
+    <string name="button_reconnect">Reconnect</string>
+    <string name="button_offline_mode">Offline Mode</string>
+    <string name="button_login">Login</string>
+    <string name="button_reset_password">Reset Password</string>
+    <string name="button_save_profile_picture">Save Profile Picture</string>
+    <string name="button_authenticate">Authenticate</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_submit">Submit</string>
+    <string name="button_i_understand">I understand</string>
+
+    <!-- Strings used for settings -->
+    <string name="push_notifications_title">Push Notifications</string>
+    <string name="push_notifications_on">Notifications about disaster reports, announcements, and chats are enabled</string>
+    <string name="push_notifications_off">Notifications about disaster reports, announcements, and chats are disabled</string>
+    <string name="developers_title">Developers</string>
+    <string name="developers_summary">Rahul Kasoju\nRaghuveer Goud Solipeta\nLakshmi Narayana Markapudi</string>
+    <string name="version_title">Version</string>
+    <string name="version_summary">1.0.0</string>
+    <string name="privacy_policy_summary">Read our Privacy Policy</string>
+    <string name="terms_and_conditions_summary">Read our Terms and Conditions</string>
+    <string name="credits_summary">Read our references</string>
+    <string name="contact_us_title">Contact Us</string>
+    <string name="contact_us_summary">Rescuehub.app@gmail.com</string>
+
+    <!-- Miscellaneous Texts -->
+    <string name="jump_to_top">Jump to Top</string>
+    <string name="comments">Comments</string>
+    <string name="change_profile_picture">Change Profile Picture</string>
+    <string name="change_profile_picture_description">Please select a new photo from your gallery or from your camera</string>
+
+    <!--  String used for Bluetooth chat -->
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">Connecting…</string>
+    <string name="title_connected_to">Connected to <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">Not connected</string>
+
+    <!--  Strings used for Device List for Bluetooth chat -->
+    <string name="scanning">Scanning for devices…</string>
+    <string name="select_device">Select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!--  Strings used for Reporting Policy -->
+    <string name="reporting_policy_header">Reporting Policy</string>
+    <string name="reporting_policy_subheader">Please be mindful NOT to:</string>
+    <string name="reporting_policy_bullet1">• Distribute or report false information,</string>
+    <string name="reporting_policy_bullet2">• Infringe any intellectual property rights,</string>
+    <string name="reporting_policy_bullet3">• And post statements that are inappropriate (violence, pornography, gambling, etc.).</string>
+    <string name="reporting_policy_footer">Failure to do so may lead to account termination and removal of content.</string>
+</resources>
